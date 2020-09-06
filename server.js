@@ -20,9 +20,9 @@ app.use(cors());
 app.use(express.static('website'));
 const port = 5000;
 
-// Spin up the server
+// start the server
 const server = app.listen(port, function listening(){
-    // console.log(server);
+  
     console.log(`running on localhost: ${port}`);
 });
 
